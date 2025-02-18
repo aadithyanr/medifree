@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "medifree",
+  "version": "1.0",
+  "description": "you already know what it does",
+  "permissions": [
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "*://medium.com/*",
+    "*://*.medium.com/*"
+  ]
+}
